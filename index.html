@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Remote Desktop</title>
+    <style>
+        /* 画面の余白を消して、スマホでもPCでも全画面にする設定 */
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #222; }
+        iframe { width: 100%; height: 100%; border: none; display: block; }
+    </style>
+</head>
+<body>
+    <!-- 
+      ここに成功したURLを入れます。
+      "/vnc.html" をつけておくと、すぐにパスワード画面が出てスムーズです。
+    -->
+    <iframe src="https://kojironas.tail40d601.ts.net" allow="clipboard-read; clipboard-write"></iframe>
+</body>
+</html>
